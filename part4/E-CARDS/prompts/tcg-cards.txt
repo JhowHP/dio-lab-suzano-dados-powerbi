@@ -1,0 +1,36 @@
+create a script to create a table in mysql
+
+- the first table is a table to save a pokemon tcg cards
+- the second table is a table to save collections set 
+
+connect to tables with foreing key
+
+first table: tbl_cards
+- id
+- hp
+- name
+- type
+- stage
+- info
+- attack
+- dammage
+- weak
+- ressis.
+- retreat
+- cardNumberInCollection
+
+
+the second table: tbl_collections
+- id
+- collectionSetName
+- release Date
+- totalCardsInCollection
+
+
+create another tables and link to tbl_cards
+- create a table to separate type
+- create a table to separate stage
+
+create a initial seed to all tales, with tcg pokemon, generate inserts scripts
+
+generate 20 inserts records to table tbl_cards
